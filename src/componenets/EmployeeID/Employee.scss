@@ -1,0 +1,82 @@
+@use  "../../sass/variables.scss" as *;
+
+.Employee__cards {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  overflow-x: auto;
+  
+.Employee {
+  height: 333px;
+  width: 222px;
+  margin: auto;
+  margin-top:50px;
+  margin-right: 30px;
+  margin-left: 30px;
+  border: 2px solid #3661af;
+  border-radius: 40px;
+  background-color: rgba(245, 245, 245, 0.761);
+  padding-left: 20px;
+  font-size: 15px;
+  color: rgb(88, 15, 15);
+}
+  
+
+ .Employee_details {
+   margin-top: 30px;
+   
+ }
+.Employee_role {
+  margin-top: 6px;
+  font-size: 13px;
+}
+}
+
+@media screen and (min-width: 375px) {
+  .Employee__cards {
+  
+    
+  
+  
+  .Employee {
+    height: 380px;
+    margin-right: 50px;
+    margin-left: 60px;
+
+
+
+}}}
+
+@media screen and (min-width: 414px)  {
+  .Employee__cards {
+
+    
+  
+  
+  .Employee {
+    height: 400px;
+    margin-right: 25px;
+    margin-left: 80px;
+
+
+
+}}}
+@media screen and (min-width: 1024px) {
+  .Employee__cards {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+
+    
+  
+  
+    .Employee {
+      margin-right: 10px;
+      margin-left: 35px;
+  
+     
+  
+  
+    }}}
+
+
+
